@@ -1,0 +1,95 @@
+body {
+	background-image: url('assets/dark.jpg');
+	color: white;
+}
+
+#About {
+	font-size: xx-large;
+	font-weight: bolder;
+	position: absolute;
+	width: 100%;
+	top: 10%;
+	left: 0%;
+	text-align: center;
+	font-size: xx-large;
+	font-style: italic;
+}
+
+#TimeLabel {
+	font-size: x-large;
+	position: absolute;
+	left: 2%;
+	width: 30%;
+	top: 35%;
+	text-align: center;
+}
+
+#Time {
+	font-size: x-large;
+	position: absolute;
+	left: 2%;
+	width: 30%;
+	top: 40%;
+	text-align: center;
+}
+
+#Score {
+	font-size: x-large;
+	position: absolute;
+	left: 2%;
+	width: 30%;
+	top: 45%;
+	text-align: center;
+}
+
+#HighScores {
+	font-size: x-large;
+	position: absolute;
+	left: 77%;
+	text-align: center;
+	top: 30%;
+}
+
+table,
+td {
+	border: 1px solid #66fcf1;
+	border-collapse: collapse;
+	padding: 15px;
+}
+
+.grid-container {
+	display: grid;
+	position: absolute;
+	left: 35%;
+	top: 30%;
+	grid-template-columns: auto auto auto auto auto;
+	background-color: rgb(12, 12, 12);
+	width: 446px;
+	height: 360px;
+	padding: 10px;
+	grid-gap: 10px 10px;
+	border-radius: 10px;
+	border-color: rgb(255, 255, 255);
+}
+
+.grid-item {
+	background-color: rgb(58, 58, 58);
+	color: #8abbb8;
+	border: 1px solid #56c9c1;
+	padding: 20px;
+	width: 80px;
+	height: 80px;
+	font-size: 26px;
+	text-align: center;
+}
+
+#Start {
+	position: absolute;
+	left: 47.2%;
+	width: 6%;
+	height: 4%;
+	top: 20%;
+	border: solid #66fcf1;
+	background-color: black;
+	color: white;
+}
